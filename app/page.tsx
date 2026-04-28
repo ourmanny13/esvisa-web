@@ -29,7 +29,7 @@ export default function Home() {
             e.preventDefault();
             const form = e.target as any;
             const message = `Hola, quiero una asesoría con ESVISA:%0A%0ANombre: ${form.name.value}%0ATeléfono: ${form.phone.value}`;
-            window.open(`https://wa.me/521XXXXXXXXXX?text=${message}`, "_blank");
+            window.open(`https://wa.me/5214171573594?text=${message}`, "_blank");
           }}
           className="flex flex-col gap-4"
         >
